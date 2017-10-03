@@ -1,0 +1,69 @@
+.container {
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: 'Grand Hotel', cursive;  
+}
+
+.row {
+  width: 100%;
+  padding: 10px 0;
+  margin: auto;
+}
+
+#canvas {
+  width: 750px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: white;
+}
+
+.pixel{
+  width: 10px;
+  height: 10px;
+  border: cadetblue 1px solid;
+  background-color: white;
+}
+
+#toolbar {
+  height: 100px;
+  width: 750px;
+  padding:20px;
+  margin: auto;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.colorButton{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.btn {
+  margin: auto;
+  text-align: center;
+}
+
+#resetDrawing,
+#currentColor{
+  width: 100px;
+  margin:15px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  font-size:16px;
+  border-radius: 10%;
+  font-family: 'Warnes', sans-serif;  
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #663399;
+}
